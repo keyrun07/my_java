@@ -1,0 +1,34 @@
+package Chapter5;
+
+class Fish {
+	protected int size;
+	private int age;
+
+	public Fish(int age) {
+		this.age = age;
+	}
+
+	public int getAge() {
+		return age;
+	}
+}
+
+public class Shark extends Fish {
+	private int numberOfFins = 8;
+
+	public Shark(int age) {
+		super(age);
+		size = 4;
+	}
+
+	public void displaySharkDetails() {
+		System.out.print("Shark with age: " + getAge());
+		System.out.print(" and " + size + " meters long");
+		System.out.print(" with " + numberOfFins + " fins");
+	}
+	
+	public static void main (String[] args) {
+		Shark s = new Shark(5);
+		s.displaySharkDetails();
+	}
+}
