@@ -12,7 +12,6 @@ public class Arraylist {
 		String [] s = new 
 		// TODO Auto-generated method stub
 		List <Integer> arr = new ArrayList <Integer> ();
-		arr.inde
 		Scanner scan = new Scanner (System.in) ;
 		scan.nextlin
 		int [] arr = { 1,2,3,5,46};

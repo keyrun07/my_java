@@ -5,8 +5,6 @@ import java.text.*;
 import java.math.*;
 import java.util.regex.*;
 
-import com.sun.java.util.jar.pack.Package.Class.Method;
-
 class Student{
     private String name;
     private String id;
@@ -27,16 +25,10 @@ class Student{
 
 public class Test {
 
-
-		
         public static void main(String[] args){
         	
         	BigInteger bi =  new BigInteger("56");
-        	
-        	bi
-        	
-        	
-        	
+
             Class student = Student.class;
             Method[] methods = student.getDeclaredMethods();
 
